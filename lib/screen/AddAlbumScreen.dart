@@ -54,7 +54,7 @@ class _AddAlbumScreenState extends State<AddAlbumScreen> {
     Scaffold.of(context).showSnackBar(
       SnackBar(
         content: Text(
-          'Added item to cart!!!',
+          'Added item to cart!',
         ),
         duration: Duration(seconds: 2),
         action: SnackBarAction(
